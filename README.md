@@ -1,3 +1,15 @@
+---
+title: NLP Spam Mail Detector
+emoji: 📧
+colorFrom: red
+colorTo: orange
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 📧 Spam Mail Detector
 
 An NLP pipeline that classifies emails and SMS messages as **spam or ham** using **TF-IDF vectorization + Naive Bayes**. Achieves **97%+ accuracy** on the SMS Spam Collection dataset with full EDA, feature importance plots, and ROC curves.
